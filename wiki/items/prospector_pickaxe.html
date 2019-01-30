@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css" />
-    <title>Lightning Forge</title>
+    <title>Prospector's Pickaxe</title>
 </head>
 
 <body class="bg-light">
@@ -15,11 +15,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/wiki">Wiki</a>
+                    <a class="nav-link" href="/">Home</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/wiki">Wiki <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/installation.html">Installation</a>
@@ -32,26 +32,17 @@
     </nav>
     <!--Enter page code below this-->
     <div class="container">
-        <h1>About</h1>
-        <p>
-          <strong>Lightning Forge</strong> is a Norse Mythology themed Minecraft mod that adds a way to craft useful and powerful items using the power of lightning. 
-          This website serves as an official documentation for users of the mod.
-        </p>
-        <h2>Getting Started</h2>
-        <p>
-            During exploration, you may come across ancient <a href="/wiki/items/artifact_fragments.html">artifact fragments</a>. These fragments can be used to reforge powerful magical artifacts such as the <a href="/wiki/items/prospector_pickaxe">Prospector's Pickaxe</a>. 
-            To get started, you need to use <a href="/wiki/blocks/fulgurite.html">fulgurite</a> to build a <a href="/wiki/blocks/lightning_forge.html">lightning forge</a>. <a href="/wiki/blocks/fulgurite.html">Fulgurite</a>, also known as petrified lightning, can be found where lightning strikes sandy areas.
-        </p>
-    </div>
-    <div class="container images">
-      <div class="row">
-        <div class="col">
-          <img src="/images/lightning_forge_setup.png"/>
+        <span class="breadcrumb"><a href="/wiki">Wiki</a> &nbsp;&gt; Prospector's Pickaxe</span>
+        <div class="row">
+            <div class="col-2">
+                <img class="object-pic" src="/images/items/Prospector Pickaxe.png" />
+            </div>
+            <div class="col-10">
+                <h3 class="object-name">Prospector's Pickaxe</h3>
+                <p class="item-desc">This pickaxe, once reforged, comes pre-enchanted with Unbreaking III, and Fortune IV. Additionally, its magic allows it to pull nearby ores out of the stone before going on a short cooldown. This helps the miner find nearby unseen ores.</p>
+                <p class="item-desc">When it mines a block, the pickaxe has a 25% chance to search a 5x5x5 block cube centered at the mined block for elligible ores (Each of these parameters is configurable).  If it finds an ore, it swaps the position of the ore and mined stone, and mines the ore instead. </p>
+            </div>
         </div>
-        <div class="col">
-          <img src="/images/getting_fulgurite.png"/>
-        </div>
-      </div>
     </div>
     <!--Enter page code above this-->
     <footer class="footer">
